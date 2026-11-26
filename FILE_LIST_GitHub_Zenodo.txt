@@ -1,0 +1,70 @@
+Algebraic geometry of memory modulation (v1.0.0) — GitHub & Zenodo File Manifest
+================================================================================
+Note: In accordance with journal peer-review policies, manuscript text files (.docx/.md)
+and the `manuscript/` directory are excluded from the public GitHub/Zenodo archive
+(`algebraic-geometry-tacs-memory-v1.0.0.zip`) while the article is under peer review.
+
+1. Repository Metadata & Environment
+------------------------------------
+- README.md                               Overview, verified results, and exact reproduction workflow
+- FILE_LIST_GitHub_Zenodo.txt             This file manifest
+- LICENSE                                 MIT License
+- CITATION.cff                            Citation File Format v1.2.0 metadata
+- .zenodo.json                            Zenodo release metadata
+- requirements.txt                        Python pip dependencies
+- environment.yml                         Conda environment specification
+
+2. Open-Access & Connectome Source Data (data/)
+-----------------------------------------------
+data/dk68/
+  - dk68_centres.txt                      68-region Desikan-Killiany cortical coordinates
+  - dk68_orientations.txt                 Dipole orientations for 68 cortical regions
+  - dk68_regions.txt                      Region anatomical labels
+  - dk68_tract_lengths.txt                White-matter tract lengths (mm)
+  - dk68_weights.txt                      Structural connectivity edge weights
+data/osf/
+  - SubjectInfo_and_BehavioralData.xlsx   OSF 4xwkj participant & resting spectral dataset (N=42, 126 sessions)
+  - RAW_TOJ.zip                           Raw MATLAB trial archives (251/252 files; 8,032 TOJ trials)
+  - A_VM.m                                Original experimental task script (OSF 4xwkj)
+  - EEG_codes.rar                         Original MATLAB EEG processing scripts archive
+  - R_codes.rar                           Original R mixed-model scripts archive
+  - codes/EEG data analysis and stats codes/*.m   16 extracted MATLAB scripts
+  - codes/R codes/*.R                             4 extracted R LMM/ANCOVA scripts
+
+3. Reproducible Source Code (src/)
+----------------------------------
+- src/empirical_analysis.py               Human behavioral & spectral re-analysis + dk68 connectome extraction
+- src/algebraic_kuramoto_memory.py        Weierstrass-Kuramoto solver, BKK mixed volume, homotopy continuation, dk68 wPLI MC, AIC/LOSO-CV, +/-25% sweep
+- src/independent_math_audit.py           Independent symbolic & numerical verifier (27/27 checks at atol/rtol = 1e-12)
+- src/generate_figures.py                 Publication figure generator (600 DPI PNG + vector PDF)
+- src/omml_equations.py                   Native Microsoft Word OMML XML equations module (Eqs. 1-18, S1-S6)
+- src/build_manuscript_docx.py            Automated DOCX builder
+- src/verify_manuscript.py                Section, word-count, equation, table, figure, and reference order verifier
+
+4. Publication Figures (figures/)
+---------------------------------
+- figures/Figure1.png, figures/Figure1.pdf
+- figures/Figure2.png, figures/Figure2.pdf
+- figures/Figure3.png, figures/Figure3.pdf
+- figures/Figure4.png, figures/Figure4.pdf
+- figures/Figure5.png, figures/Figure5.pdf
+- figures/Figure6.png, figures/Figure6.pdf
+- figures/FigureS1.png, figures/FigureS1.pdf
+- figures/FigureS2.png, figures/FigureS2.pdf
+
+5. Reproducible Quantitative Results & Audit Logs (results/)
+------------------------------------------------------------
+- results/dk68_connectome_summary.csv
+- results/empirical_adj_sep_means.csv
+- results/empirical_cell_means.csv
+- results/empirical_contrasts.csv
+- results/empirical_lmm_omnibus.csv
+- results/empirical_session_summary.csv
+- results/empirical_trial_level_toj.csv
+- results/homotopy_continuation_path.csv
+- results/model_6condition_predictions.csv
+- results/model_comparison_aic_cv.csv
+- results/participant_model_validation.csv
+- results/sensitivity_sweep_25pct.csv
+- results/verified_references.json
+- results/math_audit_report.json
