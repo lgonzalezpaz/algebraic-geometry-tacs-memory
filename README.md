@@ -1,7 +1,7 @@
 # Algebraic Bifurcation Dynamics of Fronto-Parietal Theta Oscillations Account for Phase-Specific Modulation of Human Episodic Sequence Memory
 
-**Authors:** Ysaías J. Alvarado, Máximo Quintero, Arlene Cardozo-Urdaneta, Carla Lossada, Yovani Marrero-Ponce, Félix Martinez-Rios, Yunierkis Pérez-Castillo, Ariana Delgado*, Lenin González-Paz*  
-**Correspondence:** `lgonzalezpaz@gmail.com` (L.G.-P.); `arianadelg@gmail.com` (A.D.)  
+**Authors:** Lenin González-Paz*, Arlene Cardozo-Urdaneta, Carla Lossada, Ariana Delgado, Máximo Quintero, Ysaías J. Alvarado*  
+**Correspondence:** `lgonzalezpaz@gmail.com` (L.G.-P.); `alvaradoysaias@gmail.com` (Y.J.A.)  
 **License:** MIT ([`LICENSE`](LICENSE)) · **Version:** `1.0.0`
 
 ---

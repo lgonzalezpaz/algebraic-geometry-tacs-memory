@@ -1,19 +1,16 @@
 {
   "title": "Algebraic Bifurcation Dynamics of Fronto-Parietal Theta Oscillations Account for Phase-Specific Modulation of Human Episodic Sequence Memory",
-  "description": "Reproducibility package containing Weierstrass-Kuramoto algebraic-geometric solvers, Bernstein-Kushnirenko-Khovanskii (BKK) mixed-volume calculators, polynomial homotopy continuation inverse-control scripts, 68-region human structural connectome (dk68) stochastic simulations, empirical re-analysis of N=42 human fronto-parietal theta tACS sessions (8,032 TOJ trials from OSF 4xwkj), publication figures, and manuscript build scripts.",
+  "description": "Reproducibility package containing Weierstrass-Kuramoto algebraic-geometric solvers, Bernstein-Kushnirenko-Khovanskii (BKK) mixed-volume calculators, polynomial homotopy continuation inverse-control scripts, 68-region human structural connectome (dk68) stochastic simulations, empirical re-analysis of N=42 human fronto-parietal theta tACS sessions (8,032 TOJ trials from OSF 4xwkj), and publication figures.",
   "upload_type": "software",
   "license": "MIT",
   "version": "1.0.0",
   "creators": [
-    {"name": "Alvarado, Ysaías J.", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0002-2709-409X"},
-    {"name": "Quintero, Máximo", "affiliation": "Servicio Autónomo Hospital Universitario de Maracaibo (SAHUM); Universidad del Zulia"},
+    {"name": "González-Paz, Lenin", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0003-0023-7342"},
     {"name": "Cardozo-Urdaneta, Arlene", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0009-0009-7400-2950"},
     {"name": "Lossada, Carla", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0003-3346-7101"},
-    {"name": "Marrero-Ponce, Yovani", "affiliation": "Universidad Panamericana; Universidad San Francisco de Quito", "orcid": "0000-0003-2721-1142"},
-    {"name": "Martinez-Rios, Félix", "affiliation": "Universidad Panamericana", "orcid": "0000-0002-2346-5922"},
-    {"name": "Pérez-Castillo, Yunierkis", "affiliation": "Universidad de las Américas (UDLA)", "orcid": "0000-0002-3710-0035"},
     {"name": "Delgado, Ariana", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0003-2426-779X"},
-    {"name": "González-Paz, Lenin", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0003-0023-7342"}
+    {"name": "Quintero, Máximo", "affiliation": "Servicio Autónomo Hospital Universitario de Maracaibo (SAHUM); Universidad del Zulia"},
+    {"name": "Alvarado, Ysaías J.", "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)", "orcid": "0000-0002-2709-409X"}
   ],
   "keywords": [
     "tACS",
